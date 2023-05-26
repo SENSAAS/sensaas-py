@@ -11,7 +11,6 @@ Summary
 * `What is SENSAAS?`_
 * `How does SENSAAS work?`_
 * `Installing`_
-* `Program NSC`_
 * `List of I/O Formats`_
 * `Colors`_
 * `Fitness scores`_
@@ -119,31 +118,6 @@ MacOS
 ::
 
    Not tested
-
-
-Program NSC
-============
-
-NSC is used to efficiently generate point clouds of molecules and to calculate their surfaces. It is written in C and was developed by Frank Eisenhaber who kindly licensed its use in SENSAAS. **Please be advised that the use of NSC is strictly tied to SENSAAS and its code is released under the following** `license <https://github.com/SENSAAS/sensaas/blob/main/License_NSC.txt>`_. If the NSC license is an issue for your application or if you wish to use NSC independently of SENSAAS, please contact the author Frank Eisenhaber (email: `frank.eisenhaber@gmail.com <frank.eisenhaber@gmail.com>`_) who will amicably manage your request.
-
-References :
-
-   1. F. Eisenhaber, P. Lijnzaad, P. Argos, M. Scharf, The Double Cubic Lattice Method: Efficient Approaches to Numerical Integration of Surface Area and Volume and to Dot Surface Contouring of Molecular Assemblies, Journal of Computational Chemistry, **1995**, 16, N3, pp.273-284.
-   2. F. Eisenhaber, P. Argos, Improved Strategy in Analytic Surface Calculation for Molecular Systems: Handling of Singularities and Computational Efficiency, Journal of Computational Chemistry, **1993**,14, N11, pp.1272-1280.
-
-**Executables nsc (for Linux) or ncs-win (for windows) are included in this repository**. In case they do not work on your system, you may have to compile it using the source file nsc-300.c in directory src/. Instructions for compilation:
-
-1. **for Windows:**
-
-The current executable nsc-win.exe was compiled by using http://www.codeblocks.org. Rename the executable as nsc-win.exe because 'nsc-win.exe' is used to set the variable nscexe in the Python script sensaas.py
-
-2. **for Linux**::
-
-	cc src/nsc-300.c -lm
-
-rename a.out as nsc because 'nsc' is used to set the variable nscexe in the Python script sensaas.py::
-
-	cp a.out nsc
 
 
 List of I/O Formats
@@ -346,7 +320,7 @@ You may have to run the script as follows:
 or if you want to only retrieve solutions having a gfit+hfit score above a defined cutoff
 ::
 
-	python utils/ordered-catsensaas-cutoff.py matrix-sensaas.txt catsensaas.sdf 1.1
+	python utils/ordered-catsensaas.py matrix-sensaas.txt catsensaas.sdf 1.1
 
 - the file **ordered-catsensaas.sdf** contains all aligned Sources in descending order of score
 - the file **ordered-scores.txt** contains the original number of Source with gfit+hfit scores in descending order
@@ -457,8 +431,7 @@ About This Project
 Licenses
 --------
 
-1. SENSAAS code is released under `the 3-Clause BSD License <https://opensource.org/licenses/BSD-3-Clause>`_
-2. NSC code is released under the following `license <https://github.com/SENSAAS/sensaas/blob/main/License_NSC.txt>`_
+SENSAAS code is released under `the 3-Clause BSD License <https://opensource.org/licenses/BSD-3-Clause>`_
 
 Copyright
 ---------
