@@ -8,7 +8,7 @@
 ![example](/images/alignment.png)
 
 
-**Documentation**: Full documentation is available at [https://github.com/SENSAAS/sensaas-full-python/blob/main/docs/index.rst](https://github.com/SENSAAS/sensaas-full-python/blob/main/docs/index.rst)
+**Documentation**: Full documentation is available at [https://github.com/SENSAAS/sensaas-py/blob/main/docs/index.rst](https://github.com/SENSAAS/sensaas-full-python/blob/main/docs/index.rst)
 
 **Website**: A web demo is available at https://chemoinfo.ipmc.cnrs.fr/SENSAAS/index.html
 
