@@ -149,7 +149,7 @@ When executing meta-sensaas.py, you can also select the score type by using the 
 
 	meta-sensaas.py molecules-target.sdf molecules-source.sdf -s mean
 
-here the mean of the score of the target and of the aligned source will be used to rank solutions and to fill matrix-sensaas.txt. The option '-s mean' is interesting to favor source molecules that have the same size of the Target. It can be used with the option '-l'. More about [Options](https://github.com/SENSAAS/sensaas-py/blob/main/docs/index.rst#Tutorials)
+here the mean of the score of the target and of the aligned source will be used to rank solutions and to fill matrix-sensaas.txt. The option '-s mean' is interesting to favor source molecules that have the same size of the Target. More about [Options](https://github.com/SENSAAS/sensaas-py/blob/main/docs/index.rst#Tutorials)
 
 
 **2. Finding alternative alignments and Clustering**
