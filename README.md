@@ -82,7 +82,7 @@ Here, the source file IMATINIB_mv.sdf is aligned (**moved**) on the target file 
 
 	gfit= 1.000 cfit= 0.999 hfit= 0.996 gfit+hfit= 1.996
 
-There are three different fitness scores but we only use 2 of them, gfit and hfit, to calculate gfit+hfit. More about [Fitness scores](https://github.com/SENSAAS/sensaas/blob/main/docs/index.rst#fitness-scores)
+There are three different fitness scores but we only use 2 of them, gfit and hfit, to calculate gfit+hfit. More about [Fitness scores](https://github.com/SENSAAS/sensaas-py/blob/main/docs/index.rst#fitness-scores)
 
 - gfit score estimates the geometric matching of point-based surfaces - it ranges between 0 and 1
 
@@ -141,7 +141,7 @@ When executing meta-sensaas.py, you can also select the score type by using the 
 
 	meta-sensaas.py molecules-target.sdf molecules-source.sdf -s mean
 
-here the mean of the score of the target and of the aligned source will be used to rank solutions and to fill matrix-sensaas.txt. The option '-s mean' is interesting to favor source molecules that have the same size of the Target. More about [Options](https://github.com/SENSAAS/sensaas-full-python/blob/main/docs/index.rst#Tutorials)
+here the mean of the score of the target and of the aligned source will be used to rank solutions and to fill matrix-sensaas.txt. The option '-s mean' is interesting to favor source molecules that have the same size of the Target. More about [Options](https://github.com/SENSAAS/sensaas-py/blob/main/docs/index.rst#Tutorials)
 
 
 **2. Finding alternative alignments and Clustering**
