@@ -37,8 +37,11 @@ Once Open3D downloaded:
 
 (Optional) Additional packages for visualization with PyMOL:
 
-  	conda install -c schrodinger -c conda-forge pymol-bundle
-  
+  	conda install -c schrodinger pymol
+ 
+ If an error regarding PyQT occurs then:
+ 	conda install -c anaconda pyqy
+	
 Retrieve and unzip SENSAAS repository in your desired folder. See below for running the program **sensaas.py** or **meta-sensaas.py**. The directory containing executables is called sensaas-main.
 
 ## Linux
