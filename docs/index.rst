@@ -310,6 +310,18 @@ Outputs are:
 ::
 	pymol examples/IMATINIB.sdf bestsensaas.sdf catsensaas.sdf
 
+Option -l 
+~~~~~~~~~
+
+When executing meta-sensaas.py, you can iterate the alignment by using the option -l:
+
+a) -l x
+x is an integer
+::
+	meta-sensaas.py molecules-target.sdf molecules-source.sdf -l 2
+
+here here the alignment will be evaluated twice and the best of the two will be kept.
+
 Post-processing 
 ~~~~~~~~~~~~~~~
 
