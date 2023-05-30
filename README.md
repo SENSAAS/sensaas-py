@@ -117,6 +117,14 @@ Here, the source file IMATINIB_parts.sdf contains 3 substructures that are align
 - the file **catsensaas.sdf** that contains all aligned Sources
 - the file **matrix-sensaas.txt** that contains gfit+hfit scores (rows=Targets and columns=Sources)
 
+**Option -l**
+
+When executing meta-sensaas.py, you can iterate the alignment by using the option -l:
+
+	meta-sensaas.py molecules-target.sdf molecules-source.sdf -l 2
+
+here the alignment will be evaluated twice and the best of the two will be kept.
+
 **Post-processing**
 
 Then, to ease the analysis of the results, the script utils/ordered-catsensaas.py can be used to generate files in descending order of score.
