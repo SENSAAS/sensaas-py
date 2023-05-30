@@ -387,11 +387,11 @@ Example
 
 The following example works with 2 files from the directory examples/
 ::
-	meta-sensaas.py examples/VALSARTAN.sdf examples/tetrazole.sdf -r 100
+	meta-sensaas.py examples/VALSARTAN.sdf examples/tetrazole.sdf -r 20
 	
 You may have to run the script as follows:
 ::
-	python meta-sensaas.py examples/VALSARTAN.sdf examples/tetrazole.sdf -r 100
+	python meta-sensaas.py examples/VALSARTAN.sdf examples/tetrazole.sdf -r 20
 
 .. note:: Don't worry if you get the following warning from Open3D: "*Open3D WARNING KDTreeFlann::SetRawData Failed due to no data.*". It is observed with conda on windows.
 
