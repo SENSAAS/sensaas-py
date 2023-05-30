@@ -56,7 +56,7 @@ Install:
 
 3. PyMOL (a molecular viewer; more information at [https://pymolwiki.org](https://pymolwiki.org))
   
-Retrieve and unzip SENSAAS repository. The directory containing executables is called sensaas-main.
+Retrieve and unzip SENSAAS-PY repository. The directory containing executables is called sensaas-py-main.
 
 ## MacOS
 
