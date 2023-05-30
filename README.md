@@ -169,11 +169,11 @@ This option allows to repeat in order to find alternative alignments when they e
 
 The following example works with 2 files from the directory examples/
 
-	meta-sensaas.py examples/VALSARTAN.sdf examples/tetrazole.sdf -r 10
+	meta-sensaas.py examples/VALSARTAN.sdf examples/tetrazole.sdf -r 20
 	
 You may have to run the script as follows:
 
-	python meta-sensaas.py examples/VALSARTAN.sdf examples/tetrazole.sdf -r 10
+	python meta-sensaas.py examples/VALSARTAN.sdf examples/tetrazole.sdf -r 20
 
 As described in the publication, outputs are:
 
