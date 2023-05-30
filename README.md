@@ -40,7 +40,8 @@ Once Open3D downloaded:
   	conda install -c schrodinger pymol
  
  If an error regarding PyQT occurs then:
- 	conda install -c anaconda pyqy
+ 
+ 	conda install -c anaconda pyqt
 	
 Retrieve and unzip SENSAAS repository in your desired folder. See below for running the program **sensaas.py** or **meta-sensaas.py**. The directory containing executables is called sensaas-main.
 
