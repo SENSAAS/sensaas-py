@@ -94,7 +94,7 @@ Once Open3D downloaded::
 
    (sensaas) > conda install -c schrodinger pymol
 
-If an error regarding PyQT occurs then:
+If an error regarding PyQT occurs then::
 
    (sensaas) > conda install -c anaconda pyqt
 
