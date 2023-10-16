@@ -484,9 +484,9 @@ and in case of software reuse:
 	@software{sensaas,
 	author 		= {Douguet, Dominique and Payan, Frédéric},
 	title		= {{SENSAAS}},
-	month		= June,
-	year		= 2021,
+	month		= October,
+	year		= 2023,
 	publisher	= {Github},
-	howpublished	= {https://github.com/SENSAAS/sensaas}
+	howpublished	= {https://github.com/SENSAAS/sensaas-py}
 	}
 
