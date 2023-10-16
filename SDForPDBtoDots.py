@@ -1,7 +1,5 @@
 #!/usr/bin/python3.7
 
-#Author: Dominique DOUGUET, Lucas GRANDMOUGIN, Mohamed-Akram MASROUR and Hamza BIYUZAN
-
 import sys
 import os
 import math
