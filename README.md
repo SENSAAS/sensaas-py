@@ -92,7 +92,6 @@ Thus, we calculate a hybrid score = gfit + hfit scores - **gfit+hfit ranges betw
 
    - A gfit+hfit score close to 2.0 means a perfect superimposition.
 
-   - A gfit+hfit score > 1.0 means that similaries were identified.
    
 ## Run meta-sensaas.py
 
