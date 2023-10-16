@@ -5,7 +5,7 @@
 
 **SENSAAS** is a shape-based alignment software which allows to superimpose molecules. It is based on the publication [SenSaaS: Shape-based Alignment by Registration of Colored Point-based Surfaces](https://onlinelibrary.wiley.com/doi/full/10.1002/minf.202000081)
 
-This version of **SENSAAS** is entirely written in python.
+**This version of SENSAAS is entirely written in python.**
 
 ![example](/images/alignment.png)
 
