@@ -134,7 +134,7 @@ You may have to run the script as follows:
 
 	python utils/ordered-catsensaas.py matrix-sensaas.txt catsensaas.sdf
 	
-or if you want to only retrieve solutions having a gfit+hfit score above a defined cutoff:
+or if you want to only retrieve solutions having a gfit+hfit score above a defined cutoff (here the cutoff 1.1 is chosen):
 
 	python utils/ordered-catsensaas.py matrix-sensaas.txt catsensaas.sdf 1.1
 	
