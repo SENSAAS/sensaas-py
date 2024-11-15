@@ -16,17 +16,19 @@
 
 **Tutorial**: These [videos](https://www.youtube.com/channel/UC3cjM1j8cQ-95ev0DNxRMOA) on YouTube provide tutorials
 
+
 ## Main features
 
-Surface-based representation that displays pharmacophore features
+ - Uses a surface-based representation that also displays pharmacophore features
 
-Allows submatchings e.g. aligning a fragment on a large molecule
+ - Allows submatchings e.g. aligning a fragment on a large molecule
 
-Provides the superimposition of input 3D graphs
+ - Provides the superimposition of 3D molecular graphs
 
-Provides Similarity scores
+ - Provides Similarity scores
 
-Is Free and open source
+ - Is Free and open source
+
 
 ## Requirements
 
