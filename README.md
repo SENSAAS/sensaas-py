@@ -27,7 +27,7 @@
 
  - Provides Similarity scores
 
- - Is Free and open source
+ - Is free and open source
 
 
 ## Requirements
