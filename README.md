@@ -18,6 +18,16 @@
 
 ## Main features
 
+Surface-based representation that displays pharmacophore features
+
+Allows submatchings e.g. aligning a fragment on a large molecule
+
+Provides the superimposition of input 3D graphs
+
+Provides Similarity scores
+
+Is Free and open source
+
 ## Requirements
 
 SENSAAS relies on the open-source library [Open3D](http://www.open3d.org). The current release of SENSAAS uses **Open3D version 0.12.0 along with Python3.7**.
