@@ -29,6 +29,8 @@
 
  - Is free and open source
 
+ - The lastest version [SENSAAS-Flex](https://doi.org/10.1093/bioinformatics/btae105) allows flexible alignments i.e. an optimisation of the conformation of the query molecule
+
 
 ## Requirements
 
