@@ -14,7 +14,7 @@
 
 **Documentation**: Full documentation is available at [https://github.com/SENSAAS/sensaas-py/blob/main/docs/index.rst](https://github.com/SENSAAS/sensaas-py/blob/main/docs/index.rst)
 
-**Website**: A web server to use SENSAAS or [SENSAAS-Flex](https://github.com/SENSAAS/sensaas-flex) is available at https://chemoinfo.ipmc.cnrs.fr
+**Website**: A web server to use SENSAAS or SENSAAS-Flex is available at https://chemoinfo.ipmc.cnrs.fr
 
 **Tutorial**: These [videos](https://www.youtube.com/channel/UC3cjM1j8cQ-95ev0DNxRMOA) on YouTube provide tutorials
 
