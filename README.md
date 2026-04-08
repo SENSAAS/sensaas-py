@@ -1,22 +1,19 @@
-## SENSAAS
+## SENSAAS (100% Python‑based version)
 
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue?style=for-the-badge&logo=python)](https://www.python.org/downloads/release/python-370/)
 [![Built with Science](https://img.shields.io/badge/Built%20with-Science-blue?style=for-the-badge)]((https://chemoinfo.ipmc.cnrs.fr/))
 
-**SENSAAS** is a shape-based alignment software which allows to superimpose molecules. It is based on the publication [SenSaaS: Shape-based Alignment by Registration of Colored Point-based Surfaces](https://onlinelibrary.wiley.com/doi/full/10.1002/minf.202000081)
+**SENSAAS** is a shape-based alignment software which allows to superimpose molecules. It is based on the publication [SenSaaS: Shape-based Alignment by Registration of Colored Point-based Surfaces](https://onlinelibrary.wiley.com/doi/full/10.1002/minf.202000081) **This version of SENSAAS is entirely written in python.**
 
-**This version of SENSAAS is entirely written in python**
-
-**The lastest version [SENSAAS-Flex](https://github.com/SENSAAS/sensaas-flex) allows flexible alignments i.e. an optimisation of the conformation of the query molecule**
+**[SENSAAS-Flex](https://github.com/SENSAAS/sensaas-flex), the first add-on of SENSAAS which allows flexible alignments - i.e. an optimisation of the conformation of the query molecule - is now available !**
 
 ![example](/images/alignment.png)
 
-
 **Documentation**: Full documentation is available at [https://github.com/SENSAAS/sensaas-py/blob/main/docs/index.rst](https://github.com/SENSAAS/sensaas-py/blob/main/docs/index.rst)
 
-**Website**: A web server to use SENSAAS or SENSAAS-Flex is available at https://chemoinfo.ipmc.cnrs.fr
+**Tutorial**: For a quick start with SENSAAS, we recommend watching the videos available on the dedicated YouTube channel: [videos](https://www.youtube.com/channel/UC3cjM1j8cQ-95ev0DNxRMOA)
 
-**Tutorial**: These [videos](https://www.youtube.com/channel/UC3cjM1j8cQ-95ev0DNxRMOA) on YouTube provide tutorials
+**Website**: A web server providing easy‑to‑use online versions of SENSAAS and SENSAAS‑Flex is also available at https://chemoinfo.ipmc.cnrs.fr
 
 ## Main features
 
