@@ -30,7 +30,7 @@
 
  - Provides Similarity scores
 
- - Is free and open source
+ - The code is free to use and fully open‑source
 
 
 ## Requirements
